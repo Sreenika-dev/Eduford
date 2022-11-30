@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Eduford Website</title>
+</head>
+<body>
+
+    <!--Nav and header section-->
+       <section class="sub-header only-header">
+          <nav>
+            <a href="index/html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>    
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          </nav>
+
+          
+            <h1>Our Certificate & Online Programs For 2023</h1>
+            
+            
+           </div>
+       </section>
+
+<!--blog page styling -->
+
+<section class="content">
+    <div class="row">
+        <div class="blog-col-1">
+            <img src="images/certificate.jpg" alt="">
+          <h1>Our Certificate & Online Programs For 2023</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, ullam corrupti corporis eligendi
+             non ut quos doloribus, ipsa quasi voluptatum asperiores voluptates earum eius dolorum alias voluptas,
+              voluptatem tenetur enim odit excepturi! Suscipit tempora velit vero architecto similique voluptate
+               expedita fuga dolor laboriosam, fugit nesciunt possimus perspiciatis, sequi praesentium harum debitis eius laudantium laborum ducimus, 
+            officia non! Alias, distinctio nulla quo facilis enim ullam dolorem in ducimus est, delectus numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit necessitatibus quis, libero mollitia 
+                provident, voluptatibus reprehenderit nobis maiores ea aspernatur architecto eum. Modi non voluptas eaque harum rerum voluptatem placeat fuga nobis dolorem quo. Veritatis molestiae quidem atque pariatur,
+                 vel minus iste aliquam consectetur ut suscipit! Aperiam odit fugit velit.</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit necessitatibus quis, libero mollitia 
+                    provident, voluptatibus reprehenderit nobis maiores ea aspernatur architecto eum. Modi non voluptas eaque harum rerum voluptatem placeat fuga nobis dolorem quo. Veritatis molestiae quidem atque pariatur,
+                     vel minus iste aliquam consectetur ut suscipit! Aperiam odit fugit velit.</p>
+            <a href="#" class="herobtn about-btn">Explore Now</a>
+              <!--Comment box Section-->
+       <div class="comments">
+        <h3>Leave a Comment</h3>
+        <form  class="comment-form">
+            <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea  placeholder="Your Comment" rows="5"></textarea>
+        <button type="submit" class="about-btn herobtn">Post Your Comment</button>
+
+        </form>
+        
+     </div>
+        </div>
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+        <div class="blog-col-2">
+        <h3>Post Categories</h3>
+        <div><span>Business Analytics</span>
+            <span>22</span></div>
+        <div><span>Computer Science</span>
+            <span>42</span></div>
+        <div><span>Data Analytics</span>
+            <span>15</span></div>
+        <div><span>Journalism</span>
+            <span>11</span></div>
+        <div><span>Auto CAD</span>
+            <span>11</span></div>
+        <div><span>Artifical Intelligence</span>
+            <span>19</span></div>
+        <div><span>Commerce</span>
+            <span>9</span></div>
+               
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+     
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Javascript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+      
+</script>
+
+
+
+
+
+
+
+
+           
+        
+
+
+<!--Footer section-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br> Voluptatibus rerum ex vitae facilis!
+        Sequi tempore magni   facilis corporis ducimus  similique ipsum quisquam</p>
+
+    <div class="social-links">
+       
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+         <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+           <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        
+    </div>
+    <p>made with  <i class="fa-solid fa-heart"></i>  by Srinica</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

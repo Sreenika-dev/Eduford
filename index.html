@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Eduford Website</title>
+</head>
+<body>
+
+    <!--Nav and header section-->
+       <section class="header">
+          <nav>
+            <a href="index/html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>    
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          </nav>
+
+           <div class="textbox">
+            <h1>World's Biggest University</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Commodi  <br>  explicabo dicta. Saepe, recusandae!</p>
+            <a href="#" class="herobtn">Visit Us to Know More</a>
+           </div>
+       </section>
+
+
+
+<!--Javascript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+      
+</script>
+
+
+
+<!--course section-->
+<section class="courses">
+   <h1>Courses we offer</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, fuga?</p>
+
+   <div class="row">
+    <div class="coursecol">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus rerum ex vitae facilis!
+             Sequi tempore magni   facilis corporis ducimus  similique ipsum quisquam</p>
+    </div>
+    <div class="coursecol">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus rerum ex vitae facilis!
+            Sequi tempore magni   facilis corporis ducimus  similique ipsum quisquam</p>
+    </div>
+    <div class="coursecol">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Voluptatibus rerum ex vitae facilis!
+            Sequi tempore magni   facilis corporis ducimus  similique ipsum quisquam</p>
+    </div>
+
+   </div>
+</section>
+
+<!--Campus section-->
+
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, fuga?</p>
+     <div class="row">
+        <div class="campuscol">
+             <img src="images/london.png" alt="">
+             <div class="layer">
+                <h3>LONDON</h3>
+             </div>
+        </div>
+        <div class="campuscol">
+          <img src="images/newyork.png" alt="">
+          <div class="layer">
+            <h3>NEWYORK</h3>
+         </div>
+
+        </div>
+        <div class="campuscol">
+            <img src="images/washington.png" alt="">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+             </div>
+        </div>
+     </div>
+
+</section>
+
+<!--facilities section-->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, fuga?</p>
+    <div class="row">
+        <div class="facicol">
+          <img src="Images/library.png" alt="">
+          <h3>World Class library</h3>
+          <p class="fac">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, fuga?</p>
+        </div>
+        <div class="facicol">
+           <img src="images/basketball.png" alt="">
+           <h3>Largest Play Ground</h3>
+          <p class="fac">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, fuga?</p>
+        </div>
+        <div class="facicol">
+            <img src="images/cafeteria.png" alt="">
+            <h3>Tasty and healthy food</h3>
+          <p class="fac">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, fuga?</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<!--Review section-->
+
+<section class="review">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, fuga?</p>
+    <div class="row">
+        <div class="reviewcol">
+           
+            <img src="images/user1.jpg" alt="">
+           <div class="users">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Voluptatibus rerum ex vitae facilis!
+                Sequi tempore magni   facilis corporis ducimus  similique ipsum quisquam</p>
+                <h3>Sara Bonjour</h3>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+           </div>
+           
+        </div>
+        <div class="reviewcol">
+            
+                <img src="images/user2.jpg" alt="">
+           <div class="users">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br> Voluptatibus rerum ex vitae facilis!
+                Sequi tempore magni   facilis corporis ducimus  similique ipsum quisquam</p>
+               <h3>John Snow</h3>
+               <i class="fa-sharp fa-solid fa-star"></i>
+               <i class="fa-sharp fa-solid fa-star"></i>
+               <i class="fa-sharp fa-solid fa-star"></i>
+               <i class="fa-sharp fa-solid fa-star"></i>
+               <i class="fa-regular fa-star"></i>
+           </div>
+          
+        </div>
+    </div>
+</section>
+
+<!--Final Section / Enroll page-->
+
+<section class="contact">
+    <h1>Enroll for our various Online Courses <br> anywhere from the world</h1>
+     <a href="#" class="herobtn">Contact Us</a>
+</section>
+
+
+<!--Footer section-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br> Voluptatibus rerum ex vitae facilis!
+        Sequi tempore magni   facilis corporis ducimus  similique ipsum quisquam</p>
+
+    <div class="social-links">
+       
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+         <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+           <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        
+    </div>
+    <p>made with  <i class="fa-solid fa-heart"></i>  by Srinica</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
